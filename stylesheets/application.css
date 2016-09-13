@@ -185,7 +185,7 @@ h3 {
   font-size: 40px;
   font-weight: 900;
   /*font-style: italic;*/
-  font-family: "freight-display-pro", Georgia, serif;
+  font-family: "Alegreya Sans SC", Georgia, serif;
   -webkit-font-smoothing: antialiased; }
   @media screen and (max-width: 768px) {
     /* line 95, _globals.scss */
@@ -933,7 +933,7 @@ body.index #main .wrapper .inner {
   color: #fff;
   text-align: center;
   font-weight: 100;
-  font-style: italic;
+ /* font-style: italic;*/
   font-family: "Alegreya", Georgia, serif;
   font-size: 32px;
   line-height: 150%;
@@ -1162,7 +1162,7 @@ body.index #main .wrapper .inner {
     font-family: 'Gotham A', 'Gotham B', 'Helvetica Neue', sans-serif; }
   /* line 237, _home.scss */
   .index .speakers span {
-    font-style: italic; }
+ /*   font-style: italic;*/ }
   /* line 241, _home.scss */
   .index .speakers img {
     display: block;
@@ -1594,7 +1594,7 @@ body.speakers #main {
   .speaker img {
     max-width: 150px;
     margin-bottom: 1em;
-    border-top: 3px solid #e75a2f;
+    border-top: 3px solid #071426;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9); }
 
 /* line 97, _speakers.scss */
