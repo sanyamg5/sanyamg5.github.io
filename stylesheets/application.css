@@ -624,6 +624,7 @@ iframe {
   #header nav ul .nav-venue a:after,
   #header nav ul .nav-schedule a:after,
   #header nav ul .nav-sponsors a:after,
+  #header nav ul .nav-media a:after,
   #header nav ul .nav-blog a:after {
     position: absolute;
     top: 100%;
@@ -648,6 +649,7 @@ iframe {
       #header nav ul .nav-venue a:after,
       #header nav ul .nav-schedule a:after,
       #header nav ul .nav-sponsors a:after,
+      #header nav ul .nav-media a:after,
       #header nav ul .nav-blog a:after {
         display: none; } }
   /* line 138, _nav.scss */
@@ -658,7 +660,7 @@ iframe {
   #header nav ul .nav-schedule a:hover:after,
   #header nav ul .nav-schedule a:focus:after,
   #header nav ul .nav-sponsors a:hover:after,
-  #header nav ul .nav-sponsors a:focus:after,
+  #header nav ul .nav-media a:focus:after,
   #header nav ul .nav-blog a:hover:after,
   #header nav ul .nav-blog a:focus:after {
     opacity: 1;
@@ -674,7 +676,8 @@ iframe {
 .schedule #header .nav-schedule a,
 .venue #header .nav-venue a,
 .blog #header .nav-blog a,
-.sponsors #header .nav-sponsors a {
+.sponsors #header .nav-sponsors a,
+.media #header .nav-media a {
   color: rgba(255, 255, 255, 0.6); }
   /* line 156, _nav.scss */
   .index #header .nav-index a:after,
@@ -682,7 +685,8 @@ iframe {
   .schedule #header .nav-schedule a:after,
   .venue #header .nav-venue a:after,
   .blog #header .nav-blog a:after,
-  .sponsors #header .nav-sponsors a:after {
+  .sponsors #header .nav-sponsors a:after,
+  .media #header .nav-media a:after {
     opacity: 1;
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
