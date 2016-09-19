@@ -661,6 +661,7 @@ iframe {
   #header nav ul .nav-schedule a:focus:after,
   #header nav ul .nav-sponsors a:hover:after,
   #header nav ul .nav-media a:focus:after,
+  #header nav ul .nav-media a:hover:after,
   #header nav ul .nav-blog a:hover:after,
   #header nav ul .nav-blog a:focus:after {
     opacity: 1;
